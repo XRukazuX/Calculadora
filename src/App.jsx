@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import * as math from "mathjs";
 import Boton from "./Boton";
 import "./App.css";
 
@@ -15,13 +14,6 @@ function App() {
   const simbolo1 = ["e", "μ", "sin", "deg"];
   const simbolo2 = ["Ac", "<=", "/", "*"];
   const simbolo3 = ["-", "+", "="];
-  /*document.addEventListener("click", () => {
-    let x = document.getElementById("limit").textContent;
-    if (x.length >= 14) {
-      setEntrada("Error");
-    }
-  });
-  <p id="limit">{Entrada}</p>*/
   return (
     <>
       <div id="conteiner">
