@@ -1,5 +1,5 @@
 import * as math from "mathjs";
-function Boton({ array, idem, Entrada, setEntrada, setResult, Result }) {
+function Boton({ array, idem, Entrada, setEntrada, setResult }) {
   return (
     <>
       {array.map((boton, index) => {
